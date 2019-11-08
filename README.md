@@ -1,4 +1,4 @@
-coininfo
+blockcore-coininfo
 ========
 
 [![build status](https://api.travis-ci.org/cryptocoinjs/coininfo.svg)](http://travis-ci.org/cryptocoinjs/coininfo)
@@ -6,18 +6,21 @@ coininfo
 JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
 Works in Node.js and the browser.
 
+Fork
+----
+THis library is a fork of the original coininfo with support added for Blockcore-based chains and Proof-of-Stake.
 
 Installation
 ------------
 
-    npm i coininfo
+    npm i blockcore-coininfo
 
 
 Usage
 -----
 
 ```js
-var coininfo = require('coininfo')
+var coininfo = require('blockcore-coininfo')
 
 console.dir(coininfo('LTC')) //use LTC-TEST for testnet
 // =>

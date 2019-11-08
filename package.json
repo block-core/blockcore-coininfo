@@ -1,5 +1,5 @@
 {
-  "name": "coininfo",
+  "name": "blockcore-coininfo",
   "version": "5.1.0",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
@@ -20,14 +20,15 @@
     "monacoin",
     "zcash",
     "vertcoin",
-    "qtum"
+    "qtum",
+    "blockcore"
   ],
   "devDependencies": {
     "standard": "*",
     "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/cryptocoinjs/coininfo",
+    "url": "https://github.com/block-core/blockcore-coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",
