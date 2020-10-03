@@ -11,6 +11,7 @@ test('+ coininfo()', function (t) {
       'doge', 'doge-test',
       'ltc', 'ltc-test',
       'via', 'via-test',
+      'grs', 'grs-test',
       'nbt',
       'nmc',
       'ppc',
